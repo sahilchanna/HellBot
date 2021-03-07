@@ -20,25 +20,19 @@ else:
 kraken = bot.uid
 
 PM_IMG = "https://telegra.ph/file/80e5200c615cf0cb57aa9.mp4"
-pm_caption = "__**🔥🔥ɦɛʟʟɮօt ɨs օռʟɨռɛ🔥🔥**__\n\n"
+pm_caption = "__**༒︎𝓲ꪑ ꪮꪀꪶ𝓲ꪀꫀ 𝘴𝓲𝘳༒︎**__\n\n"
 
 pm_caption += (
-    f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『 [{DEFAULTUSER}](tg://user?id={kraken}) 』**\n\n"
+    f"               ☠︎︎✯✯♔︎🄼🄰🅂🅃🄴🅁♔︎✯✯☠︎︎\n**『 [{DEFAULTUSER}](tg://user?id={kraken}) 』**\n\n"
 )
 
-pm_caption += f"🛡️TELETHON🛡️ : `{version.__version__}` \n"
+pm_caption += " 𖣘✵✵𝘴ꪮꪑꫀ ᦔꫀ𝓽ꪖ𝓲ꪶ𝘴 ꪮᠻ 𝓽ꫝꫀ ᥇ꪮ𝓽✵✵𖣘"
 
-pm_caption += f"😈Hêllẞø†😈       : __**{hellversion}**__\n"
+pm_caption += f"✵TELETHON✵`{version.__version__}` \n"
 
-pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
+pm_caption += f"⁂Hêllẞø†⁂{hellversion}\n"
 
-pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n"
-
-pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/kraken_the_badass)\n\n"
-
-pm_caption += "    [✨REPO✨](https://github.com/hellboy-op/hellbot) 🔹 [📜License📜](https://github.com/HellBoy-OP/HellBot/blob/master/LICENSE)"
-
-
+pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ]**(https://t.me/sahil_channaa)\n\n**"
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
 @bot.on(sudo_cmd(pattern="alive$", allow_sudo=True))
 async def amireallyalive(alive):
