@@ -16,7 +16,7 @@ async def reply_id(event):
 
 DEFAULTUSER = ALIVE_NAME or "Hell User"
 HELL_IMG = Config.ALIVE_PIC
-CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "ʟɛɢɛռɖaʀʏ_ᴀғ_ɦɛʟʟɮօt"
+CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "⍟ⁿᵒʟɛɢɛռɖaʀʏ_ᴀғ_ɦɛʟʟɮօt⍟"
 
 USERID = bot.uid
 
@@ -64,11 +64,11 @@ async def amireallyalive(alive):
     if HELL_IMG:
         hell_caption = f"**{CUSTOM_ALIVE_TEXT}**\n"
         hell_caption += f"≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈\n"
-        hell_caption += f"     __**BOT STATUS**__\n\n"
-        hell_caption += f"**★ Telethon version :** `{version.__version__}`\n"
+        hell_caption += f"⍟✵**BOT STATUS**✵⍟\n\n"
+        hell_caption += f"**★ Telethon :** `{version.__version__}`\n"
         hell_caption += f"**★ HêllBø† :**`{hellversion}`\n"
         hell_caption += f"**★ Uptime :** `{uptime}\n`"
-        hell_caption += f"**★ Master:** {mention}\n"
+        hell_caption += f"**★ tumhara baap saalo ** {mention}\n"
         await alive.client.send_file(
             alive.chat_id, HELL_IMG, caption=hell_caption, reply_to=reply_to_id
         )
@@ -78,9 +78,9 @@ async def amireallyalive(alive):
             alive,
             f"**{CUSTOM_ALIVE_TEXT}**\n\n"
             f"≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ \n"
-            f"      __**BOT STATUS**__\n\n"
-            f"**★ Telethon Version :** `{version.__version__}`\n"
-            f"**★ HêllBø†:** `{hellversion}`\n"
-            f"**★ Uptime :** `{uptime}\n`"
-            f"**★ Master:** {mention}\n",
+            f"      ⚜️⚜️__**BOT STATUS*__⚜️⚜️\n\n"
+            f"**★ Telethon 🔱:** `{version.__version__}`\n"
+            f"**★ HêllBø†🛡️:** `{hellversion}`\n"
+            f"**★ Uptime ⏱️:** `{uptime}\n`"
+            f"**★ Master:🔸** {mention}\n🔸",
         )
